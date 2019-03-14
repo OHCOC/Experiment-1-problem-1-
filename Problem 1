@@ -1,0 +1,23 @@
+// TicketPrice numberOfTicketsSold 
+#include <iostream>
+#include <conio.h> 
+using namespace std; 
+	int main () 
+	{ 
+		
+		cout << "Type of Ticket       Ticket Price        Number Of Tickets Sold" <<endl;
+		cout << "General Admission     5750               250" <<endl;
+		cout << "Premium               28000              100" <<endl;   
+		cout << "Sideline              35750              50" <<endl; 
+		cout << "Box                   18750              25" <<endl;
+		cout << "Total Profit" <<endl; 
+		cout << "Type of Ticket        Amount of Profit " <<endl; 
+		cout << "General Admission..... = " <<(5750*250) <<endl;
+		cout << "Premium............... = " <<(28000*100) <<endl;
+		cout << "Sideline.............. = " <<(35750*50) <<endl;
+		cout << "Box................... = " <<(18750*25) <<endl;
+
+		_getch();
+		return 0;
+
+	}
